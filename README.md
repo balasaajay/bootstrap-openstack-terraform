@@ -5,9 +5,9 @@ Terraform openstack script that creates a simple network, two servers with diffe
 
 Openstack services **created** by this script are:
 
-1) Key
+1) Key pair
 
-2) Netowrk
+2) Network
 
 3) Subnet with CIDR from variables file as defined
 
@@ -27,7 +27,7 @@ Prerequisites:
 
 Basic commands to deploy above mentioned openstack servces:
 
-1) ```terraform plan``` :  Generates and shows execution plan and also any if there are any syntactical errors
+1) ```terraform plan``` :  Generates, shows execution plan and does a syntax check
 
 2) ```terraform apply``` : Builds or changes infrastructure according to terraform scripts
 
