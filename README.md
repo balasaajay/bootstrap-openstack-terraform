@@ -23,7 +23,7 @@ Prerequisites:
 
 1) **Opensatck tenant** with sufficient resources
 
-2) **Terraform** installed
+2) **Terraform** <https://www.hashicorp.com/blog/terraform.html> app installed
 
 Basic commands to deploy above mentioned openstack servces:
 
