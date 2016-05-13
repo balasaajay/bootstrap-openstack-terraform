@@ -20,3 +20,4 @@ Basic commands to deploy above mentioned openstack servces:
 1) ```terraform plan``` :  Generates and shows execution plan and also any if there are any syntactical errors
 2) ```terraform apply``` : Builds or changes infrastructure according to terraform scripts
 3) ```terraform destroy``` : Destroys Terraform managed infrastructure
+
