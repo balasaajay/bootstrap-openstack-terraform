@@ -1,37 +1,39 @@
 [![Gitter](https://badges.gitter.im/balasaajay/bootstrap-openstack-terraform.svg)](https://gitter.im/balasaajay/bootstrap-openstack-terraform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # bootstrap-openstack-terraform
-Bootstrapping an openstack tenant using terraform with some basic elements
+Bootstrapping an openstack tenant using terraform with some basic elements.
 
 Terraform openstack script that creates a simple network, two servers with different flavors, gets a floating IP and assigns it to one of the server.
 
-Openstack services **created** by this script are:
+#### Openstack services created by this script are:
 
-1) Key pair
+- Key pair
 
-2) Network
+- Network
 
-3) Subnet with CIDR from variables file as defined
+- Subnet with CIDR from variables file as defined
 
-4) Router with gateway and interface
+- Router with gateway and interface
 
-5) Floating IP
+- Floating IP
 
-6) Security groups
+- Security groups
 
-7) Two servers with different flavors and configurations
+- Two servers with different flavors and configurations
 
-Prerequisites:
+## Prerequisites:
 
-1) **Opensatck tenant** with sufficient resources
+- **Opensatck tenant** with sufficient resources.
 
-2) **Terraform** <https://www.hashicorp.com/blog/terraform.html> app installed
+- **Terraform** <https://www.terraform.io/downloads.html> installed.
 
-Basic commands to deploy above mentioned openstack servces:
+## How to? 
 
-1) ```terraform plan``` :  Generates, shows execution plan and does a syntax check
+Basic commands to deploy above mentioned openstack services:
 
-2) ```terraform apply``` : Builds or changes infrastructure according to terraform scripts
+1) `terraform plan` :  Generates, shows execution plan and does a syntax check.
 
-3) ```terraform destroy``` : Destroys Terraform managed infrastructure
+2) `terraform apply` : Builds or changes infrastructure according to terraform scripts.
+
+3) `terraform destroy` : Destroys Terraform managed infrastructure.
 
