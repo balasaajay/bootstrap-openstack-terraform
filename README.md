@@ -1,4 +1,6 @@
 # bootstrap-openstack-terraform
+
+[![Join the chat at https://gitter.im/balasaajay/bootstrap-openstack-terraform](https://badges.gitter.im/balasaajay/bootstrap-openstack-terraform.svg)](https://gitter.im/balasaajay/bootstrap-openstack-terraform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Bootstrapping an openstack tenant using terraform with some basic elements
 
 Terraform openstack script that creates a simple network, two servers with different flavors, gets a floating IP and assigns it to one of the server.
