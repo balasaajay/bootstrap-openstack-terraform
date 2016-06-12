@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/balasaajay/bootstrap-openstack-terraform.svg)](https://gitter.im/balasaajay/bootstrap-openstack-terraform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # bootstrap-openstack-terraform
 Bootstrapping an openstack tenant using terraform with some basic elements
 
