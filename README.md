@@ -25,7 +25,9 @@ Terraform openstack script that creates a simple network, two servers with diffe
 
 - **Opensatck tenant** with sufficient resources.
 
-- **Terraform** <https://www.terraform.io/downloads.html> installed.
+- [**Terraform**](https://www.terraform.io/downloads.html) installed.
+
+- [**GraphViz**](http://www.graphviz.org/) (Optional, Reqd only if you want to execute `terraform graph`) installed
 
 ## How to? 
 
@@ -36,4 +38,15 @@ Basic commands to deploy above mentioned openstack services:
 2) `terraform apply` : Builds or changes infrastructure according to terraform scripts.
 
 3) `terraform destroy` : Destroys Terraform managed infrastructure.
+
+# Terraform graph
+
+Terraform graph feature can be used to generate a visual representation of execution plan
+
+- To generate a dot file of the plan: `terraform graph | dot -O`
+- To convert a dot file to a JPEG image: `dot -Tjpeg noname.gv.dot -o plan.jpeg`
+
+Visual representation of the plan that is executed by this repo.
+![Graph](plan.jpeg)
+ 
 
